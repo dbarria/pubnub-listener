@@ -2,7 +2,6 @@ require 'pubnub'
 require 'ougai'
 require 'yaml'
 require 'erb'
-require 'byebug'
 
 current_dir = File.dirname(File.expand_path(__FILE__))
 template = ERB.new File.read "#{current_dir}/../config.yml"
