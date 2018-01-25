@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (9.1.0)
     celluloid (0.17.3)
       celluloid-essentials
       celluloid-extras
@@ -65,7 +64,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   daemons
   ougai
   pubnub
