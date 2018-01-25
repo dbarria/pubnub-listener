@@ -1,8 +1,8 @@
 publish_key: <%= ENV['PUBLISH_KEY'] %>
 subscribe_key: <%= ENV['SUBSCRIBE_KEY'] %>
 auth_key: <%= ENV['AUTH_KEY'] %>
-uuid: user-4656
+uuid: user-4619
 ssl: true
-channel_group: user-4656-channelGroup
+channel_group: user-4619-channelGroup
 log_name: pubnub-listener.log
 origin: pubsub.pubnub.com

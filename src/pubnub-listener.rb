@@ -22,8 +22,7 @@ pubnub = Pubnub.new(
 )
 
 pubnub.subscribe(
-  channel_groups: config['channel_group'],
-  origin: config['origin']
+  channel_groups: config['channel_group']
 )
 
 callback = Pubnub::SubscribeCallback.new(
